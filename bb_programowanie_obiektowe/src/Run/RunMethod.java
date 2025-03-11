@@ -3,6 +3,7 @@ package Run;
 import StableData.InputData;
 import Tasks001.RunLab001;
 import Tasks002.RunLab002;
+import Tasks003.RunLab003;
 
 public class RunMethod
 {
@@ -10,6 +11,7 @@ public class RunMethod
 
     RunLab001 runLab001 = new RunLab001();
     RunLab002 runLab002 = new RunLab002();
+    RunLab003 runLab003 = new RunLab003();
 
     public void RunMain()
     {
@@ -28,6 +30,7 @@ public class RunMethod
         {
             case 1: runLab001.RunMain();
             case 2: runLab002.RunMain();
+            case 3: runLab003.RunMain();
         }
     }
 
