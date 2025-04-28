@@ -25,6 +25,8 @@ public class RunLab005
         {
             case 1: tasksLab005.Task001();
             case 2: tasksLab005.Task002();
+            case 3: tasksLab005.Task003();
+            case 4: tasksLab005.Task004();
         }
     }
 }

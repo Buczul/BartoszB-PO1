@@ -26,7 +26,7 @@ public class InputData
 
     public String InputString()
     {
-        return input.nextLine();
+        return input.next();
     }
 
     public boolean InputBoolean()
